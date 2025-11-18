@@ -5,24 +5,28 @@
   <img alt="Pandas" src="https://img.shields.io/badge/Pandas-2.x-150458?logo=pandas&logoColor=white">
   <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-plotting-11557C?logo=python&logoColor=white">
   <img alt="Seaborn" src="https://img.shields.io/badge/Seaborn-statistical%20plots-0EA5E9">
+  <img alt="SciPy" src="https://img.shields.io/badge/SciPy-Mann--Whitney%20U%20%7C%20Chi--square-0B61A4?logo=scipy&logoColor=white">
   
   <!-- Modeling / ML stack -->
-  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-OVR%20classifiers-F7931E?logo=scikitlearn&logoColor=white">
+  <img alt="scikit-learn RF" src="https://img.shields.io/badge/scikit--learn-RandomForest%20OVR-F7931E?logo=scikitlearn&logoColor=white">
+  <img alt="Encoders" src="https://img.shields.io/badge/Encoders-OneHot%20%7C%20LOO%20%7C%20CatBoost-10B981">
+  <img alt="Metrics" src="https://img.shields.io/badge/Metrics-Accuracy%20%7C%20Precision%20%7C%20Recall%20%7C%20F1%20%7C%20ROC%20AUC-6366F1">
   <img alt="SHAP" src="https://img.shields.io/badge/SHAP-global%20%26%20local%20importance-8B5CF6">
   <img alt="LightGBM" src="https://img.shields.io/badge/Optional-LightGBM-00B300?logo=lightgbm&logoColor=white">
   <img alt="XGBoost" src="https://img.shields.io/badge/Optional-XGBoost-EB4C2B">
-  <img alt="Category encoders" src="https://img.shields.io/badge/Categorical-category__encoders-10B981">
   
   <!-- Purpose / Features -->
-  <img alt="Task" src="https://img.shields.io/badge/Task-Cluster%20interpretability-6366F1">
-  <img alt="Contrastive analysis" src="https://img.shields.io/badge/Analysis-Cluster--vs--cluster%20contrast-F59E0B">
-  <img alt="Narratives" src="https://img.shields.io/badge/Output-Markdown%20narratives-EC4899">
-  <img alt="Exports" src="https://img.shields.io/badge/Exports-CSV%20%7C%20PNG%20SHAP%20plots-4B5563">
+  <img alt="Task" src="https://img.shields.io/badge/Task-Cluster%20interpretability-312E81">
+  <img alt="Contrastive analysis" src="https://img.shields.io/badge/Analysis-Contrastive%20importance%20(A%20vs%20B)-F59E0B">
+  <img alt="Distributions" src="https://img.shields.io/badge/Plots-Histograms%20%7C%20Stacked%20bars-4B5563">
+  <img alt="Narratives" src="https://img.shields.io/badge/Output-Cluster%20narratives%20%26%20summaries-EC4899">
+  <img alt="Exports" src="https://img.shields.io/badge/Exports-CSV%20summary%20%7C%20PNG%20SHAP%20plots-6B7280">
   
   <!-- Meta -->
   <img alt="License" src="https://img.shields.io/badge/License-MIT-000000">
   <img alt="Status" src="https://img.shields.io/badge/Status-Alpha%20library-brightgreen">
 </p>
+
 
 <p align="center">
   <!-- Replace the src URL below with your actual ClusterLens logo asset -->
