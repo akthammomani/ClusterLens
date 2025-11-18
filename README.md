@@ -26,7 +26,7 @@
 
 <p align="center">
   <!-- Replace the src URL below with your actual ClusterLens logo asset -->
-  <img src="https://github.com/user-attachments/assets/your-clusterlens-logo-id-here" 
+  <img src="https://github.com/user-attachments/assets/31214062-e972-43e1-a6a6-4116821002cb"  
        alt="ClusterLens logo" width="320" height="320" />
 </p>
 
