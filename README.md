@@ -34,7 +34,7 @@
 
 **ClusterLens** is an interpretability engine for **clustered / segmented data**.
 
-You already have clusters – customer segments, user personas, product tiers, risk bands.  
+You already have clusters - customer segments, user personas, product tiers, risk bands.  
 ClusterLens answers the harder questions:
 
 - What actually *drives* each cluster?
