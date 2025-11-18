@@ -45,7 +45,6 @@ ClusterLens answers the harder questions:
 ClusterLens sits on top of **any clustering method** (k-means, GMM, HDBSCAN, rule-based labels, etc.).  
 All it requires is a `DataFrame` with a column that holds the cluster labels.
 
----
 
 ## Key ideas
 
