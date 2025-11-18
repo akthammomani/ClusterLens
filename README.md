@@ -121,9 +121,9 @@ ClusterLens wraps a **train-once, reuse-everywhere** pipeline:
 
 It is built to be:
 
-- **Model-agnostic on the clustering side** – ClusterLens never clusters; it interprets the labels you already have.
-- **Numerically honest** - combines SHAP with effect sizes (`Cohen's d`, standardized median gaps, Cramér’s V, lifts).
-- **Report-friendly** - outputs narratives and tables you can drop directly into notebooks, dashboards, or slide decks.
+- **Model-agnostic on the clustering side**: ClusterLens never clusters; it interprets the labels you already have.
+- **Numerically honest**: Combines SHAP with effect sizes (`Cohen's d`, standardized median gaps, Cramér’s V, lifts).
+- **Report-friendly**: Outputs narratives and tables you can drop directly into notebooks, dashboards, or slide decks.
 
 ---
 
