@@ -34,6 +34,8 @@
        alt="ClusterLens logo" width="320" height="320" />
 </p>
 
+Please note that the project is currently in its beta phase. If you encounter any issues or have suggestions, we encourage you to share them. We are committed to addressing feedback promptly. Your contributions and ideas are greatly appreciated!.
+
 # **ClusterLens**
 
 **ClusterLens** is an interpretability engine for **clustered / segmented data**.
