@@ -1,11 +1,17 @@
-"""
-ClusterLens core module.
-
-Exposes ClusterAnalyzer: a train-once, reuse-everywhere interpretability engine
-for clustered / segmented data. Given a DataFrame with a cluster label, it
-trains one-vs-rest classifiers, computes SHAP, contrastive statistics, and
-produces cluster narratives and summaries.
-"""
+#===========================================================================================================================================================================#
+#                         ClusterLens - Core Module                                                                                                                         #
+#===========================================================================================================================================================================#
+# Author      : Aktham Momani                                                                                                                                               #
+# Created     : 2025-11-22                                                                                                                                                  #
+# Version     : V1.0.0                                                                                                                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+# Purpose     : Exposes ClusterAnalyzer: a train-once, reuse-everywhere interpretability engine for clustered / segmented data. Given a DataFrame with a cluster label, it  #
+#               trains one-vs-rest classifiers, computes SHAP, contrastive statistics, andproduces cluster narratives and summaries.                                        #
+#                                                                                                                                                                           #
+# Change Log  :                                                                                                                                                             #
+#  - V1.0.0 (2025-11-22): Initial release.                                                                                                                                  #
+#  - V1.0.1 (planned)   : Minor bug fixes, UX improvements, polish the UI, performance, and stability.                                                                      #
+#===========================================================================================================================================================================#
 
 from __future__ import annotations
 
@@ -17,7 +23,7 @@ sum = builtins.sum
 round = builtins.round
 pow = builtins.pow
 try:
-    del col  # type: ignore[name-defined]
+    del col  
 except Exception:
     pass
 
