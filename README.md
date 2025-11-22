@@ -115,8 +115,9 @@ pip install -e .
 
 * Inside a conda or virtual environment (recommended practice):
 
-Create and activate an environment, then install via pip:
+
 ```bash
+# Create and activate an environment, then install via pip:
 conda create -n clusterlens-env python=3.10
 conda activate clusterlens-env
 pip install -U clusterlens       # or use any of the commands above
