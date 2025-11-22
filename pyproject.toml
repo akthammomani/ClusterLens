@@ -37,3 +37,10 @@ xgboost = ["xgboost>=2.0"]
 [project.urls]
 "Homepage" = "https://github.com/akthammomani/ClusterLens"
 "Source"   = "https://github.com/akthammomani/ClusterLens"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["clusterlens*"]
