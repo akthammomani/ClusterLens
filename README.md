@@ -52,7 +52,7 @@ ClusterLens sits on top of **any clustering method** (k-means, GMM, HDBSCAN, rul
 All it requires is a `DataFrame` with a column that holds the cluster labels.
 
 
-## Key ideas
+## **Key ideas**
 
 ClusterLens wraps a **train-once, reuse-everywhere** pipeline:
 
@@ -74,12 +74,60 @@ It is built to be:
 - **Numerically honest**: Combines SHAP with effect sizes (`Cohen's d`, standardized median gaps, Cramér’s V, lifts).
 - **Report-friendly**: Outputs narratives and tables you can drop directly into notebooks, dashboards, or slide decks.
 
----
+## **Installation**
 
-## Installation
-
-Once published to PyPI:
+* From PyPI (recommended): 
 
 ```bash
+# Fresh install:
 pip install clusterlens
+
+# Upgrade to the latest version:
+pip install -U clusterlens
+
+# With optional extras (LightGBM, XGBoost):
+pip install -U "clusterlens[lightgbm,xgboost]"
+
+# To pin a specific version:
+pip install "clusterlens==0.1.0"
+```
+
+* From GitHub (latest main):
+```bash
+# Install directly from the GitHub repo:
+pip install "git+https://github.com/akthammomani/ClusterLens.git"
+
+# With extras:
+pip install "clusterlens[lightgbm,xgboost] @ git+https://github.com/akthammomani/ClusterLens.git"
+```
+
+* From a local clone:
+```bash
+git clone https://github.com/akthammomani/ClusterLens.git
+cd ClusterLens
+
+# standard install:
+pip install .
+
+# or editable (developer) install:
+pip install -e .
+```
+
+* Inside a conda or virtual environment (recommended practice):
+
+Create and activate an environment, then install via pip:
+```bash
+conda create -n clusterlens-env python=3.10
+conda activate clusterlens-env
+pip install -U clusterlens       # or use any of the commands above
+```
+
+After installation you should be able to do:
+```python
+from clusterlens import ClusterAnalyzer
+```
+
+
+
+
 
