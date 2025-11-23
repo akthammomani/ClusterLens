@@ -25,6 +25,9 @@
   <!-- Meta -->
   <img alt="License" src="https://img.shields.io/badge/License-MIT-000000">
   <img alt="Status" src="https://img.shields.io/badge/Status-Alpha%20library-brightgreen">
+  <a href="https://pypi.org/project/clusterlens/">
+    <img alt="PyPI" src="https://img.shields.io/pypi/v/clusterlens.svg?label=PyPI&color=3775A9&logo=pypi&logoColor=white">
+  </a>
 </p>
 
 
