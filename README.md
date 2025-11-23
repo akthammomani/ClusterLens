@@ -84,7 +84,7 @@ Interactive, full documentation for the library is available **[here](https://cl
 
 ## **Installation**
 
-* From PyPI (recommended): 
+* From [PyPI (recommended)](https://pypi.org/project/clusterlens/): 
 
 ```bash
 # Fresh install:
