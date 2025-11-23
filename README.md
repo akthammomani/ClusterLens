@@ -74,6 +74,11 @@ It is built to be:
 - **Numerically honest**: Combines SHAP with effect sizes (`Cohen's d`, standardized median gaps, Cramér’s V, lifts).
 - **Report-friendly**: Outputs narratives and tables you can drop directly into notebooks, dashboards, or slide decks.
 
+
+## **Library documentation**
+
+Interactive, full documentation for the library is available **[here](https://clusterlens-documentation.streamlit.app/)**. The documentation app mirrors the API, shows example calls, and is the best place to explore ClusterLens features end to end.
+
 ## **Installation**
 
 * From PyPI (recommended): 
