@@ -37,12 +37,9 @@
        alt="ClusterLens logo" width="320" height="320" />
 </p>
 
-Please note that this open-source library is currently in its beta phase. If you encounter any issues or have suggestions, we encourage you to share them. We are committed to addressing feedback promptly. Your contributions and ideas are greatly appreciated!.
-
 > **Release status**
 >
-> The current public release on PyPI is **`clusterlens==0.1.0`**.  
-> This is an early **alpha / preview** release of the library.  
+> The current public release on PyPI is **`clusterlens==0.1.0`**. This is an early **alpha / preview** release of the library.  
 > Expect small API adjustments and visual polish as we gather feedback.
 
 # **ClusterLens**
@@ -87,6 +84,25 @@ It is built to be:
 ## **Library documentation**
 
 Interactive, full documentation for the library is available **[here](https://clusterlens-documentation.streamlit.app/)**. The documentation app mirrors the API, shows example calls, and is the best place to explore ClusterLens features end to end.
+
+## **Release roadmap**
+
+* **Current release – `0.1.0`**: The first public version focuses on:
+
+  * Core `ClusterAnalyzer` API (`fit`, SHAP integration, narratives, contrastive stats).
+  * RandomForest OVR models with optional LightGBM / XGBoost.
+  * Summary exports and basic SHAP bar plots for each cluster.
+  * A minimal, opinionated interface that works out-of-the-box on most clustered tables.
+
+* **Next planned release – `0.1.1` (upcoming)**: Planned improvements for the next minor version include:
+
+  * **Removing deprecation warnings** (e.g., upcoming seaborn changes) so notebooks stay clean.
+  * **Improved stability & error messages** around input validation and edge cases.
+  * **Better visual defaults** for SHAP and distribution plots. (clearer labels, tighter layouts, more readable colors).
+  * **Minor bug fixes and doc updates** based on community feedback.
+
+> If you hit an issue or have a request for `0.1.1`, please open a GitHub issue – that's what will drive the next releases.
+
 
 ## **Installation**
 
