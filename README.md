@@ -39,6 +39,12 @@
 
 Please note that this open-source library is currently in its beta phase. If you encounter any issues or have suggestions, we encourage you to share them. We are committed to addressing feedback promptly. Your contributions and ideas are greatly appreciated!.
 
+> **Release status**
+>
+> The current public release on PyPI is **`clusterlens==0.1.0`**.  
+> This is an early **alpha / preview** release of the library.  
+> Expect small API adjustments and visual polish as we gather feedback.
+
 # **ClusterLens**
 
 **ClusterLens** is an interpretability engine for **clustered / segmented data**.
