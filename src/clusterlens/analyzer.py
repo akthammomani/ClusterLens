@@ -481,7 +481,7 @@ class ClusterAnalyzer:
                     labels.append(feat)
 
             fig, ax = plt.subplots(1, 1, figsize=(10, 6))
-            sns.barplot(x=agg.values, y=labels, palette=base_palette[:len(agg)], ax=ax)
+            sns.barplot(x=agg.values, y=labels, palette=base_palette[:len(agg)], dodge=False, ax=ax, legend=False)
             ttl_suffix = f"Top {len(agg)}" if top_n is not None else "All features"
             ax.set(title=f"{ttl_suffix} SHAP - Cluster {cl}",
                    xlabel="Mean |SHAP|", ylabel="")
