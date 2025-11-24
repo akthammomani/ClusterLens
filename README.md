@@ -101,7 +101,7 @@ Interactive, full documentation for the library is available **[here](https://cl
   * **Better visual defaults** for SHAP and distribution plots. (clearer labels, tighter layouts, more readable colors).
   * **Minor bug fixes and doc updates** based on community feedback.
 
-> If you hit an issue or have a request for `0.1.1`, please open a GitHub issue – that's what will drive the next releases.
+> If you hit an issue or have a request for `0.1.1`, please open a GitHub issue - that's what will drive the next releases.
 
 
 ## **Installation**
