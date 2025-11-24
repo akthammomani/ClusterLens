@@ -87,14 +87,14 @@ Interactive, full documentation for the library is available **[here](https://cl
 
 ## **Release roadmap**
 
-* **Current release – `0.1.0`**: The first public version focuses on:
+* **Current release - `0.1.0`**: The first public version focuses on:
 
   * Core `ClusterAnalyzer` API (`fit`, SHAP integration, narratives, contrastive stats).
   * RandomForest OVR models with optional LightGBM / XGBoost.
   * Summary exports and basic SHAP bar plots for each cluster.
   * A minimal, opinionated interface that works out-of-the-box on most clustered tables.
 
-* **Next planned release – `0.1.1` (upcoming)**: Planned improvements for the next minor version include:
+* **Next planned release - `0.1.1` (upcoming)**: Planned improvements for the next minor version include:
 
   * **Removing deprecation warnings** (e.g., upcoming seaborn changes) so notebooks stay clean.
   * **Improved stability & error messages** around input validation and edge cases.
