@@ -3,14 +3,14 @@
 #===========================================================================================================================================================================#
 # Author      : Aktham Momani                                                                                                                                               #
 # Created     : 2025-11-22                                                                                                                                                  #
-# Version     : V1.0.0                                                                                                                                                      #
+# Version     : 0.1.0                                                                                                                                                      #
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 # Purpose     : Exposes ClusterAnalyzer: a train-once, reuse-everywhere interpretability engine for clustered / segmented data. Given a DataFrame with a cluster label, it  #
 #               trains one-vs-rest classifiers, computes SHAP, contrastive statistics, andproduces cluster narratives and summaries.                                        #
 #                                                                                                                                                                           #
 # Change Log  :                                                                                                                                                             #
-#  - V1.0.0 (2025-11-22): Initial release.                                                                                                                                  #
-#  - V1.0.1 (planned)   : Minor bug fixes, UX improvements, polish the UI, performance, and stability.                                                                      #
+#  - 0.1.0 (2025-11-22): Initial release.                                                                                                                                  #
+#  - 0.1.1 (upcoming)   : Minor bug/warnings fixes, UX improvements, polish the UI, performance, and stability.                                                                      #
 #===========================================================================================================================================================================#
 
 from __future__ import annotations
