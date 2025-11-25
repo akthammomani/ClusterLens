@@ -85,6 +85,11 @@ It is built to be:
 
 Interactive, full documentation for the library is available **[here](https://clusterlens-documentation.streamlit.app/)**. The documentation app mirrors the API, shows example calls, and is the best place to explore ClusterLens features end to end.
 
+## **Notebook example: credit customer segmentation**
+
+We also provide a full, end-to-end notebook that illustrates how to use **ClusterLens** on a real **credit customer segmentation** dataset.  
+It walks through data preparation, fitting `ClusterAnalyzer`, inspecting SHAP plots, and generating narratives. the notebook can be found [here](https://github.com/akthammomani/ClusterLens/blob/main/Example/Customers_Segmentation.ipynb).
+
 ## **Release roadmap**
 
 * **Current release - `0.1.0`**: The first public version focuses on:
