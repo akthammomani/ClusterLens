@@ -164,6 +164,18 @@ from clusterlens import ClusterAnalyzer
 ```
 
 
+## **Citation**
+```bibtex
+@article{Almomani2025FromClustersToDecisions,
+  title   = {From Clusters to Decisions: How ClusterLens Turns Segments into Stories},
+  author  = {Aktham Momani},
+  year    = {2025},
+  journal = {Medium},
+  url     = {https://medium.com/python-in-plain-english/from-clusters-to-decisions-how-clusterlens-turns-segments-into-stories-719317e43bd9}
+}
+```
+
+
 
 
 
